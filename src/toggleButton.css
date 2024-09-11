@@ -1,0 +1,34 @@
+.toggleDiv {
+	height: 50px;
+	width: 80%;
+	display: flex;
+	align-items: center;
+	/* border: solid 1px rgb(208, 208, 168); */
+	justify-content: center;
+}
+
+.toggleDiv p{
+	width: 40%;
+	text-align: center;
+	font-family: "Ubuntu", sans-serif;
+	color: rgb(113, 113, 113);
+	transition: font-size 0.3s ease;
+}
+
+.toggle-rectangle{
+	height: 20px;
+	width: 50px;
+	border-radius: 50px;
+	background-color: rgb(185, 185, 185);
+	display: flex;
+	padding: 4px;
+	transition: background-color 0.3s ease;
+}
+
+.toggle-circle{
+	height: 100%;
+	width: 42%;
+	border-radius: 100px;
+	background-color: rgb(255, 255, 255);
+	transition: transform 0.3s ease;
+}
