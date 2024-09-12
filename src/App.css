@@ -57,5 +57,5 @@ body {
 }
 
 .input-to-edit::placeholder{
-	color: palevioletred;
+	color: rgb(155, 155, 155);
 }
