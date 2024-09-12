@@ -22,11 +22,11 @@ export default function App() {
 	
 	return (
 		
-	<div className="printBox">
+	<>
 		
 			<ToggleButton toggleOffText={'Edit mode'} toggleOnText={'Print mode'} toggleOn={toggleOn} handleClick={handleToggleClick}/>
 		
-		<div className='editBox'>
+		<div className='text-div'>
 			{toggleOn ? (
 				<PrintMode text={text}/>
 			) : (
@@ -34,7 +34,7 @@ export default function App() {
 			)}
 			
 		</div>
-	</div>
+	</>
 	
 	)
 }
